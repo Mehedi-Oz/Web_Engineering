@@ -55,7 +55,6 @@
 
 [class*='col-'] {
     float: left;
-    /* border: 1px solid rgb(255, 255, 255); */
 }
 
 .row::after {
@@ -66,7 +65,7 @@
 
 .container {
     width: 90%;
-    height: auto;
+    height: 100%;
     margin: auto;
 }
 
@@ -172,8 +171,8 @@
 
 .home-content .caption {
     position: absolute;
-    margin-top: 237px;
-    margin-left: 225px;
+    top: 237px;
+    left: 225px;
 }
 
 .self-image {
@@ -190,7 +189,12 @@
     top: 730px;
 }
 
-.icon img {
+.header-icon img {
+    height: 37px;
+    margin-top: 22px;
+}
+
+.portfolio-icon img {
     height: 37px;
     margin-top: 22px;
 }
@@ -256,10 +260,6 @@
     margin-left: 789px;
 }
 
-/* .portfolio-button a button {
-    margin-top: 30px;
-} */
-
 .portfolio-button button {
     padding: 10px;
     margin-top: 30px;
@@ -275,22 +275,12 @@
     margin-top: 20px;
 }
 
-.contact-content {
-    position: relative;
+.icon a {
+    padding: 90px;
 }
 
-.phone {
-    position: absolute;
-    top: 66px;
-    left: 105px;
-}
-
-.address{
-    margin-top: 65px;
-margin-left: 460px;
-}
-
-.email{
-    margin-top: 65px;
-margin-left: -151px;
+.icon a img {
+    height: 92px;
+    margin-top: 95px;
+    margin-bottom: 119px;
 }
